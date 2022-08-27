@@ -25,7 +25,7 @@
 }
 
 body {
-  font-family: "Comfortaa-Bold";
+  font-family: "Comfortaa", sans-serif;
   background-color: var(--bg);
   color: var(--text);
   display: flex;
@@ -47,7 +47,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 0.9;
-  font-family: "Comfortaa-Bold";
+  font-family: "Comfortaa", sans-serif;
   grid-area: title;
   align-items: center;
 }
@@ -70,7 +70,7 @@ body {
   font-size: 15px;
   line-height: 2.4;
   margin: 0 0 10px 0;
-  font-family: "Comfortaa-Bold";
+  font-family: "Comfortaa", sans-serif;
 }
 
 .links__container {
@@ -143,6 +143,20 @@ footer {
   color: var(--buttoncolor);
   text-decoration: none;
 }
+
+@font-face {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Comfortaa"),
+       /* Если не получилось, загрузит woff2 */
+       url("/fonts/Comfortaa.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("/fonts/Comfortaa.woff") format("woff");
+}
+
+/* Теперь можно использовать шрифт */
 body {
-  font-family: "Comfortaa-Bold", sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }

@@ -143,3 +143,6 @@ footer {
   color: var(--buttoncolor);
   text-decoration: none;
 }
+body {
+  font-family: "Comfortaa-Bold", sans-serif;
+}

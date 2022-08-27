@@ -43,7 +43,7 @@ body {
 }
 
 .header__title {
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   font-weight: 200;
   font-size: 20px;
   line-height: 0.9;
@@ -57,18 +57,18 @@ body {
   font-weight: 200;
   font-size: 20px;
   line-height: 0.9;
-  margin: 0 0 10px 0;;
+  margin: 0 0 20px 0;;
   grid-area: subtitile;
 }
 
 .links {
   width: 320px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .links__header {
   font-size: 15px;
-  line-height: 2.4;
+  line-height: 1.4;
   margin: 0 0 10px 0;
   font-family: "Comfortaa", sans-serif;
 }
@@ -92,7 +92,7 @@ body {
 .links__link,
 .links__title {
   font-size: 14px;
-  font-size: 1.4;
+  font-size: 1.0;
 }
 
 .links__link {
@@ -158,5 +158,5 @@ footer {
 
 /* Теперь можно использовать шрифт */
 body {
-  font-family: "Comfortaa-Bold", sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
